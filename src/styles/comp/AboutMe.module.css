@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  max-width: 1000px;
+  margin: 52px auto 180px;
+  gap: 24px;
+}
+.content {
+  width: 60%;
+}

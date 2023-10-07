@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0 auto;
+  padding: 25px 0 50px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+.link {
+  display: flex;
+  padding: 10px 18px;
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 15px;
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+  width: fit-content;
+  font-size: 12px;
+}
+.email:hover {
+  background-color: rgb(120, 20, 20);
+}
+.github:hover {
+  background-color: rgb(85, 30, 85);
+}
+.linkedin:hover {
+  background-color: rgb(30, 30, 120);
+}
