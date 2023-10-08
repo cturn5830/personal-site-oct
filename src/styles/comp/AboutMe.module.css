@@ -7,3 +7,12 @@
 .content {
   width: 60%;
 }
+@media (max-width: 850px) {
+  .main {
+    flex-direction: column;
+    max-width: 95vw;
+  }
+  .content {
+    width: 100%;
+  }
+}

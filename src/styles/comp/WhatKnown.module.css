@@ -1,7 +1,11 @@
 .main {
   background: rgb(24, 24, 24);
-  padding: 24px;
-  padding-bottom: 156px;
+  padding: 50px 24px 156px;
+}
+.main h2 {
+  max-width: 980px;
+  padding: 0 24px;
+  margin: 0 auto 35px;
 }
 .invis {
   max-height: 0px;
@@ -43,6 +47,7 @@
   width: 250px;
   height: 250px;
   padding: 4px;
+  max-width: 95%;
 }
 .button {
   margin: 24px auto;
@@ -60,4 +65,53 @@
   opacity: 0.7;
   transition: all 0.15s;
   cursor: pointer;
+}
+@media (max-width: 850px) {
+  .invis {
+    flex-direction: column;
+    width: 90%;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 1s;
+  }
+  .more {
+    flex-direction: column;
+    width: 90%;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    max-height: 1200px;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  .first3 {
+    flex-direction: column;
+    width: 90%;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .item {
+    width: 300px;
+    max-width: none;
+    padding: 0 0 12px;
+    margin: 0;
+  }
+  .main h2 {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 24px;
+    text-align: center;
+  }
+  .button {
+    max-width: 80%;
+  }
 }
