@@ -12,7 +12,7 @@ export default function Footer() {
             Linkedin
           </a>
           <a className={`${styles.link} ${styles.email}`} href="#">
-            Connor@theconnorturner.com
+            MYNAME@gmail.com
           </a>
         </section>
       </footer>
