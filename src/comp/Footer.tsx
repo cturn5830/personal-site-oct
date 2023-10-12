@@ -1,5 +1,7 @@
 import styles from "@/styles/comp/Footer.module.css";
 
+import spikes from "../img/spikes2.png";
+
 export default function Footer() {
   return (
     <>
@@ -15,6 +17,10 @@ export default function Footer() {
             Connor@theconnorturner.com
           </a>
         </section>
+        <div
+          className={styles.img}
+          style={{ backgroundImage: `url(${spikes.src})` }}
+        ></div>
       </footer>
     </>
   );

@@ -1,5 +1,6 @@
 import styles from "../styles/comp/HeroBanner.module.css";
 
+import hero from "../img/hero.png";
 export default function HeroBanner() {
   return (
     <>
@@ -12,7 +13,10 @@ export default function HeroBanner() {
           </h3>
         </section>
         <section>
-          <div>img placeholder</div>
+          <div
+            className={styles.img}
+            style={{ backgroundImage: `url(${hero.src})` }}
+          ></div>
         </section>
       </div>
     </>

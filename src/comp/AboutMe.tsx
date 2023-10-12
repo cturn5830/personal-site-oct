@@ -1,10 +1,10 @@
 import styles from "../styles/comp/AboutMe.module.css";
+import bubbles from "../img/bubbles.png";
 
 export default function AboutMe() {
   return (
     <>
       <section className={styles.main}>
-        <div className={styles.img}>IMG PLACE HOLDER</div>
         <div className={styles.content}>
           <h2>A little bit about me.</h2>
           <p>
@@ -17,6 +17,11 @@ export default function AboutMe() {
             web-developer.
           </p>
         </div>
+
+        <div
+          className={styles.img}
+          style={{ backgroundImage: `url(${bubbles.src})` }}
+        ></div>
       </section>
     </>
   );

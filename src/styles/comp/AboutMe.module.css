@@ -1,18 +1,23 @@
 .main {
-  display: flex;
-  max-width: 1000px;
-  margin: 52px auto 180px;
-  gap: 24px;
+  margin: 52px auto 0;
+  padding: 0;
 }
 .content {
   width: 60%;
+  max-width: 800px;
+  margin: 0 auto 60px;
 }
+.img {
+  height: 200px;
+  background-repeat: repeat-x;
+  background-size: 200px;
+  opacity: 0.085;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 850px) {
-  .main {
-    flex-direction: column;
-    max-width: 95vw;
-  }
   .content {
-    width: 100%;
+    width: 80%;
   }
 }
