@@ -24,7 +24,7 @@ export default function Home() {
         <HeroBanner />
         <WhyMe />
         <AboutMe />
-        <WhatKnown more={true} />
+        <WhatKnown more={true} bg={true} />
       </main>
     </>
   );

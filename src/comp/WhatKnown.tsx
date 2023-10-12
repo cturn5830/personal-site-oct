@@ -1,7 +1,7 @@
 import styles from "../styles/comp/WhatKnown.module.css";
 import { useState } from "react";
 
-export default function WhatKnown({ more }: { more: any }) {
+export default function WhatKnown({ more, bg }: { more: any; bg: any }) {
   const [check, setCheck] = useState(false);
   const [extra, setExtra] = useState(styles.invis);
   const [button, setButton] = useState("View More");
@@ -19,7 +19,11 @@ export default function WhatKnown({ more }: { more: any }) {
       console.log("returned as false");
     }
   }
-
+  function bgCheck() {
+    if (bg) {
+      return { background: "rgb(24, 24, 24)" };
+    }
+  }
   function viewMore() {
     if (more) {
       return (
@@ -52,7 +56,7 @@ export default function WhatKnown({ more }: { more: any }) {
 
   return (
     <>
-      <section className={styles.main}>
+      <section className={styles.main} style={bgCheck()}>
         <h2>Heres the most popular languages I know.</h2>
         <div className={styles.first3}>
           <span className={styles.item}>

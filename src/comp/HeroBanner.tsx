@@ -7,10 +7,10 @@ export default function HeroBanner() {
       <div className={styles.main}>
         <section className={styles.text}>
           <h1 className={styles.name}>Connor Turner.</h1>
-          <h2 className={styles.one}>Web Dev made easy.</h2>
-          <h3 className={styles.two}>
-            Your website made for you, professionally.
-          </h3>
+          <h3 className={styles.two}>Professional Web Development.</h3>
+          <h2 className={styles.one}>
+            Websites made for you, with <span>you</span> in mind.
+          </h2>
         </section>
         <section>
           <div
