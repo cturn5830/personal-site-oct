@@ -1,6 +1,10 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/comp/Nav.module.css";
+import Image from "next/image";
+
+import menuBTN from "../img/menu.png";
+import xWhite from "../img/x-white.png";
 
 export default function Nav() {
   const [draw, setDraw] = useState(false);
@@ -35,7 +39,7 @@ export default function Nav() {
           opener();
         }}
       >
-        Open
+        <Image alt="Menu" src={menuBTN} width={60} /> {/* Menu open Button */}
       </button>
       <section
         className={navCheck()}
@@ -52,7 +56,8 @@ export default function Nav() {
                   opener();
                 }}
               >
-                Close
+                <Image alt="Close" src={xWhite} width={45} />{" "}
+                {/* Menu close Button */}
               </button>
             </li>
             <li className={styles.listItem}>
