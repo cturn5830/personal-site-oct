@@ -1,0 +1,22 @@
+{
+  "Data": {
+    "Sites": [
+      {
+        "Name": "Redemtion",
+        "Code": "MANG/PHP/WORDPRESS",
+        "Img": "N/A",
+        "Type": "Freelance",
+        "Desc": "Redmetion is a church where I primarly manage their site, along with some updates and new features.",
+        "Url": ""
+      },
+      {
+        "Name": "Trim",
+        "Code": "NEXT JS/TAILWIND/GRAPHQL QUERY",
+        "Img": "N/A",
+        "Type": "Freelance",
+        "Desc": "Trim is a site for getting hair cuts in the simular style of DoorDash, where you order hair cuts to your home.",
+        "Url": ""
+      }
+    ]
+  }
+}

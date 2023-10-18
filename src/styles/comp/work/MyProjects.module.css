@@ -1,0 +1,62 @@
+.MasterWrapper {
+  padding: 28px 0 180px;
+}
+
+.wrapper {
+  width: 1000px;
+  max-width: 95%;
+  margin: 0 auto;
+  min-width: fit-content;
+  padding: 0 12px;
+}
+.site {
+  width: 30%;
+  display: block;
+  padding: 0;
+  min-width: fit-content;
+  border: dashed 5px rgb(48, 48, 48);
+  border-radius: 3%;
+  padding: 0 8px 12px 8px;
+}
+.img {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.workType {
+  background-color: rgba(48, 48, 48, 0.98);
+  width: fit-content;
+  padding: 8px 18px;
+}
+.codeType {
+  background-color: rgba(24, 24, 24, 0.7);
+  width: fit-content;
+  max-width: 100%;
+  padding: 3px 10px;
+  margin: 0;
+  text-shadow: -2px 0 rgb(24, 24, 24),
+    0 2px rgb(24, 24, 24) 2px 0 rgb(24, 24, 24), 0 -2px rgb(24, 24, 24);
+  font-size: 14px;
+}
+.listWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+  padding: 0 10px;
+  gap: 20px;
+}
+.name {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  width: fit-content;
+  max-width: 300px;
+}
+.desc {
+  width: fit-content;
+  max-width: 300px;
+}
