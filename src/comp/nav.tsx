@@ -9,14 +9,6 @@ import xWhite from "../img/x-white.png";
 export default function Nav() {
   const [draw, setDraw] = useState(false);
 
-  function printState() {
-    if (draw) {
-      return "opened draw";
-    } else {
-      return "draw is closed";
-    }
-  }
-
   function opener() {
     if (draw) {
       setDraw(false);
@@ -68,6 +60,11 @@ export default function Nav() {
             <li className={styles.listItem}>
               <Link href="/work" className={styles.Link}>
                 My Work
+              </Link>
+            </li>
+            <li className={styles.listItem}>
+              <Link href="/about" className={styles.Link}>
+                About Me
               </Link>
             </li>
           </ul>

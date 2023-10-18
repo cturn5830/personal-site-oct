@@ -1,0 +1,46 @@
+{
+  "Data": {
+    "Facts": [
+      {
+        "Num": "1",
+        "Text": "I grew up in Ohio"
+      },
+      {
+        "Num": "2",
+        "Text": "I have 9 siblings"
+      },
+      {
+        "Num": "3",
+        "Text": "I collect retro video games, over 300"
+      },
+      {
+        "Num": "4",
+        "Text": "I was part of NHS and student council in high school"
+      },
+      {
+        "Num": "5",
+        "Text": "Supernatrual is my favorite TV show"
+      },
+      {
+        "Num": "6",
+        "Text": "My favorite game series Zelda"
+      },
+      {
+        "Num": "7",
+        "Text": "My favorite artist is Eden"
+      },
+      {
+        "Num": "8",
+        "Text": "I love pineapple on pizza"
+      },
+      {
+        "Num": "9",
+        "Text": "My favorite super hero is Superman"
+      },
+      {
+        "Num": "10",
+        "Text": "In high school I ran track"
+      }
+    ]
+  }
+}
