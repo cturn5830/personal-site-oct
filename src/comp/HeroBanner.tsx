@@ -1,7 +1,10 @@
 import styles from "../styles/comp/HeroBanner.module.css";
 import Link from "next/link";
 
-import hero1 from "../img/hero.png";
+import hero1 from "../img/hero/hero.png";
+import hero2 from "../img/hero/keyboard2.png";
+import hero3 from "../img/hero/smile4.png";
+
 export default function HeroBanner({
   bannerImg,
   link,
@@ -30,6 +33,22 @@ export default function HeroBanner({
         <div
           className={styles.img}
           style={{ backgroundImage: `url(${hero1.src})` }}
+        ></div>
+      );
+    }
+    if (bannerImg === 2) {
+      return (
+        <div
+          className={styles.img2}
+          style={{ backgroundImage: `url(${hero2.src})` }}
+        ></div>
+      );
+    }
+    if (bannerImg === 3) {
+      return (
+        <div
+          className={styles.img3}
+          style={{ backgroundImage: `url(${hero3.src})` }}
         ></div>
       );
     } else {

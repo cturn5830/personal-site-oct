@@ -23,7 +23,7 @@ export default function About() {
       </Head>
       <main>
         <HeroBanner
-          bannerImg={1}
+          bannerImg={3}
           line1="About the face behind the screen."
           line2={line2Text()}
           link={true}

@@ -20,7 +20,7 @@ export default function Work() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroBanner
-        bannerImg={1}
+        bannerImg={2}
         line2={line2Text()}
         line1="It could be your site next."
         link={true}

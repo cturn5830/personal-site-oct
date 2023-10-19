@@ -38,7 +38,9 @@
     flex-direction: column;
     justify-content: space-around;
   }
-  .img {
+  .img,
+  .img2,
+  .img3 {
     margin: 0;
     display: none;
   }
@@ -52,4 +54,21 @@
 .nameLink:hover {
   opacity: 0.4;
   transition: all 0.3s;
+}
+.img2 {
+  height: 330px;
+  background-size: 400px;
+  opacity: 0.07;
+  width: 400px;
+  background-repeat: no-repeat;
+  margin: 160px 224px 0 auto;
+  rotate: -14deg;
+}
+.img3 {
+  height: 500px;
+  background-size: 500px;
+  opacity: 0.07;
+  width: 500px;
+  background-repeat: no-repeat;
+  margin: 0 0 0 0;
 }
