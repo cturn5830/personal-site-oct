@@ -20,6 +20,7 @@
 }
 .email:hover {
   background-color: rgb(120, 20, 20);
+  cursor: default;
 }
 .github:hover {
   background-color: rgb(85, 30, 85);
@@ -32,4 +33,7 @@
   background-repeat: repeat-x;
   background-size: 440px;
   opacity: 0.07;
+}
+.email {
+  margin: 0;
 }

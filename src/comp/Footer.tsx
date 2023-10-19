@@ -7,15 +7,23 @@ export default function Footer() {
     <>
       <footer>
         <section className={styles.footer}>
-          <a className={`${styles.link} ${styles.github}`} href="#">
+          <a
+            className={`${styles.link} ${styles.github}`}
+            href="https://github.com/cturn5830"
+            target="_blank"
+          >
             Github
           </a>
-          <a className={`${styles.link} ${styles.linkedin}`} href="#">
+          <a
+            className={`${styles.link} ${styles.linkedin}`}
+            href="https://www.linkedin.com/in/connor-turner-0b7422255/"
+            target="_blank"
+          >
             Linkedin
           </a>
-          <a className={`${styles.link} ${styles.email}`} href="#">
+          <p className={`${styles.link} ${styles.email}`}>
             Connor@theconnorturner.com
-          </a>
+          </p>
         </section>
         <div
           className={styles.img}
