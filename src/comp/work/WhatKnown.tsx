@@ -1,10 +1,14 @@
 import styles from "@/styles/comp/work/WhatKnown.module.css";
 import { useState } from "react";
 
+import data from "@/data/Code.json";
+
 export default function WhatKnown({ more, bg }: { more: any; bg: any }) {
   const [check, setCheck] = useState(false);
   const [extra, setExtra] = useState(styles.invis);
   const [button, setButton] = useState("View More");
+
+  const codeData = data.Data.Codes;
 
   function view() {
     if (check) {
@@ -24,20 +28,29 @@ export default function WhatKnown({ more, bg }: { more: any; bg: any }) {
       return { background: "rgb(24, 24, 24)" };
     }
   }
+
+  function Template({ code }: { code: any }) {
+    return (
+      <span className={styles.item}>
+        <h3>{code.Name}</h3>
+        <div
+          style={{ backgroundImage: `url('${code.Img}')` }}
+          className={styles.img}
+        ></div>
+      </span>
+    );
+  }
+
   function viewMore() {
     if (more) {
       return (
         <>
           <div className={extra}>
-            <span className={styles.item}>
-              <h3>Next JS</h3> <div className={styles.img}>img placeholder</div>
-            </span>
-            <span className={styles.item}>
-              <h3>PHP</h3> <div className={styles.img}>img placeholder</div>
-            </span>
-            <span className={styles.item}>
-              <h3>SASS</h3> <div className={styles.img}>img placeholder</div>
-            </span>
+            {codeData &&
+              codeData.length > 0 &&
+              codeData
+                .slice(3, 20)
+                .map((codeData) => <Template code={codeData} />)}
           </div>
           <button
             className={styles.button}
@@ -59,15 +72,11 @@ export default function WhatKnown({ more, bg }: { more: any; bg: any }) {
       <section className={styles.main} style={bgCheck()}>
         <h2>Heres the most popular languages I know.</h2>
         <div className={styles.first3}>
-          <span className={styles.item}>
-            <h3>React</h3> <div className={styles.img}>img placeholder</div>
-          </span>
-          <span className={styles.item}>
-            <h3>Wordpress</h3> <div className={styles.img}>img placeholder</div>
-          </span>
-          <span className={styles.item}>
-            <h3>Tailwind</h3> <div className={styles.img}>img placeholder</div>
-          </span>
+          {codeData &&
+            codeData.length > 0 &&
+            codeData
+              .slice(0, 3)
+              .map((codeData) => <Template code={codeData} />)}
         </div>
 
         {viewMore()}

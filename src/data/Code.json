@@ -1,0 +1,36 @@
+{
+  "Data": {
+    "Codes": [
+      {
+        "Num": "1",
+        "Name": "React",
+        "Img": "/img/code/react1.png"
+      },
+      {
+        "Num": "2",
+        "Name": "Wordpress",
+        "Img": "/img/code/wordpress1.png"
+      },
+      {
+        "Num": "3",
+        "Name": "Tailwind",
+        "Img": "/img/code/tailwind1.png"
+      },
+      {
+        "Num": "4",
+        "Name": "Next JS",
+        "Img": "/img/code/nextjs1.png"
+      },
+      {
+        "Num": "5",
+        "Name": "PHP",
+        "Img": "/img/code/php1.png"
+      },
+      {
+        "Num": "6",
+        "Name": "SASS",
+        "Img": "/img/code/sass1.png"
+      }
+    ]
+  }
+}

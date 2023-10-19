@@ -42,11 +42,14 @@
   padding: 0 8px 12px 8px;
 }
 .img {
-  background: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   width: 250px;
   height: 250px;
   padding: 4px;
   max-width: 95%;
+  opacity: 0.175;
 }
 .button {
   margin: 24px auto;
