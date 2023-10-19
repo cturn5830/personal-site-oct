@@ -13,17 +13,19 @@ export default function MyProjects({ bg }: { bg: any }) {
   function Template({ site }: { site: any }) {
     return (
       <>
-        <span className={styles.site}>
+        <a className={styles.site} href={site.Url} target="_blank">
           <h4 className={styles.name}>{site.Name}</h4>
-          <div className={styles.img}>
+          <div
+            className={styles.img}
+            style={{ backgroundImage: `url('${site.Img}')` }}
+          >
             <span className={styles.workType}>{site.Type} </span>
-            Img Placeholder Background
             <span>
               <h4 className={styles.codeType}>{site.Code}</h4>
             </span>
           </div>
           <p className={styles.desc}>{site.Desc}</p>
-        </span>
+        </a>
       </>
     );
   }

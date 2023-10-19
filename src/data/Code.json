@@ -3,8 +3,8 @@
     "Codes": [
       {
         "Num": "1",
-        "Name": "React",
-        "Img": "/img/code/react1.png"
+        "Name": "Next JS",
+        "Img": "/img/code/nextjs1.png"
       },
       {
         "Num": "2",
@@ -16,10 +16,11 @@
         "Name": "Tailwind",
         "Img": "/img/code/tailwind1.png"
       },
+
       {
         "Num": "4",
-        "Name": "Next JS",
-        "Img": "/img/code/nextjs1.png"
+        "Name": "React",
+        "Img": "/img/code/react1.png"
       },
       {
         "Num": "5",

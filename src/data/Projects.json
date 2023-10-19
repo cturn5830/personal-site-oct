@@ -4,18 +4,18 @@
       {
         "Name": "Redemption",
         "Code": "MANG/PHP/WORDPRESS",
-        "Img": "N/A",
+        "Img": "/img/work/redemption1.png",
         "Type": "Freelance",
         "Desc": "Redemption is a church where I primarly manage their site, along with some updates and new features.",
-        "Url": ""
+        "Url": "https://redemptioncares.com/"
       },
       {
         "Name": "Trim",
         "Code": "NEXT JS/TAILWIND/GRAPHQL QUERY",
-        "Img": "N/A",
+        "Img": "/img/work/trim1.png",
         "Type": "Freelance",
         "Desc": "Trim is a site for getting hair cuts in the simular style of DoorDash, where you order hair cuts to your home.",
-        "Url": ""
+        "Url": "https://www.trim.me/"
       }
     ]
   }
