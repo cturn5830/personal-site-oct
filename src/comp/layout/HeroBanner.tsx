@@ -1,9 +1,9 @@
-import styles from "../styles/comp/HeroBanner.module.css";
+import styles from "@/styles/comp/layout/HeroBanner.module.css";
 import Link from "next/link";
 
-import hero1 from "../img/hero/hero.png";
-import hero2 from "../img/hero/keyboard2.png";
-import hero3 from "../img/hero/smile4.png";
+import hero1 from "@/img/hero/hero.png";
+import hero2 from "@/img/hero/keyboard2.png";
+import hero3 from "@/img/hero/smile4.png";
 
 export default function HeroBanner({
   bannerImg,

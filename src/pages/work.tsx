@@ -1,6 +1,6 @@
-import WhatKnown from "@/comp/WhatKnown";
+import WhatKnown from "@/comp/work/WhatKnown";
 import MyProjects from "@/comp/work/MyProjects";
-import HeroBanner from "@/comp/HeroBanner";
+import HeroBanner from "@/comp/layout/HeroBanner";
 
 import Head from "next/head";
 export default function Work() {

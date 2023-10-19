@@ -1,4 +1,4 @@
-import styles from "../styles/comp/WhatKnown.module.css";
+import styles from "@/styles/comp/work/WhatKnown.module.css";
 import { useState } from "react";
 
 export default function WhatKnown({ more, bg }: { more: any; bg: any }) {

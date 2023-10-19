@@ -1,4 +1,4 @@
-import styles from "../styles/comp/CtaForm.module.css";
+import styles from "../styles/comp/home/CtaForm.module.css";
 
 import { useState } from "react";
 

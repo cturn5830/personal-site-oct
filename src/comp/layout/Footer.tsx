@@ -1,6 +1,6 @@
-import styles from "@/styles/comp/Footer.module.css";
+import styles from "@/styles/comp/layout/Footer.module.css";
 
-import spikes from "../img/spikes2.png";
+import spikes from "@/img/spikes2.png";
 
 export default function Footer() {
   return (

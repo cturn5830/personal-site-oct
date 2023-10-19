@@ -1,4 +1,4 @@
-import HeroBanner from "@/comp/HeroBanner";
+import HeroBanner from "@/comp/layout/HeroBanner";
 import Head from "next/head";
 
 import styles from "@/styles/About.module.css";

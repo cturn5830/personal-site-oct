@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
-import HeroBanner from "@/comp/HeroBanner";
+import HeroBanner from "@/comp/layout/HeroBanner";
 import WhyMe from "@/comp/WhyMe";
 import AboutMe from "@/comp/AboutMe";
-import WhatKnown from "@/comp/WhatKnown";
-import CtaForm from "@/comp/CtaForm";
+import WhatKnown from "@/comp/work/WhatKnown";
+import CtaForm from "@/comp/home/CtaForm";
 
 export default function Home() {
   function heroText() {

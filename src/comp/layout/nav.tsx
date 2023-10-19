@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Link from "next/link";
-import styles from "../styles/comp/Nav.module.css";
+import styles from "@/styles/comp/layout/Nav.module.css";
 import Image from "next/image";
 
-import menuBTN from "../img/menu.png";
-import xWhite from "../img/x-white.png";
+import menuBTN from "@/img/nav/menu.png";
+import xWhite from "@/img/nav/x-white.png";
 
 export default function Nav() {
   const [draw, setDraw] = useState(false);
