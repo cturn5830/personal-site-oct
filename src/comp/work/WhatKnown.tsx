@@ -70,7 +70,7 @@ export default function WhatKnown({ more, bg }: { more: any; bg: any }) {
   return (
     <>
       <section className={styles.main} style={bgCheck()}>
-        <h2>Heres the most popular languages I know.</h2>
+        <h2>Here are the most popular languages I know.</h2>
         <div className={styles.first3}>
           {codeData &&
             codeData.length > 0 &&

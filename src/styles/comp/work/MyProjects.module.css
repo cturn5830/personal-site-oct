@@ -10,7 +10,7 @@
   padding: 0 12px;
 }
 .site {
-  width: 30%;
+  width: 250px;
   display: block;
   padding: 0;
   min-width: fit-content;
@@ -51,7 +51,8 @@
   justify-content: center;
   row-gap: 10px;
   padding: 0 10px;
-  gap: 20px;
+  gap: 10px;
+  max-width: 1000px;
 }
 .name {
   margin: 0;
