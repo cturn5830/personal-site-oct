@@ -67,3 +67,8 @@
     width: 95%;
   }
 }
+.title {
+  padding-right: 0;
+  width: 100%;
+  font-size: 34px;
+}
