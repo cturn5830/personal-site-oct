@@ -14,13 +14,13 @@ export default function Footer() {
           >
             Github
           </a>
-          <a
+          {/* <a
             className={`${styles.link} ${styles.linkedin}`}
             href="https://www.linkedin.com/in/connor-turner-0b7422255/"
             target="_blank"
           >
             Linkedin
-          </a>
+          </a> */}
           <p className={`${styles.link} ${styles.email}`}>
             Connor@theconnorturner.com
           </p>
