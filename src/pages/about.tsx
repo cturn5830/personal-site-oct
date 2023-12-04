@@ -48,11 +48,11 @@ export default function About() {
               <h2 className={styles.title}>My Goal.</h2>
               <p>
                 I aim to solve problems and make life easier, for businesses and
-                consumers alike, through the internet. By continuing to home my
+                consumers alike, through the internet. By continuing to hone my
                 craft through web development, I learn more and am able to
                 provide even better results for my clients and their customers
-                as well. By helping others through web development, I find my
-                own fulfillment as well.
+                as well. By helping others through web development, I further
+                find my own fulfillment.
               </p>
             </div>
           </span>
@@ -88,14 +88,14 @@ export default function About() {
                   images or text.
                 </p>
               </li>
-              <li>
+              {/* <li>
                 <h3>Notes Are Key.</h3>
                 <p>
                   I’m a huge user of notes and love to jot down big facts down
                   key elements to look back on, this avoids missing elements in
                   the future and minimizing revisions, helping myself and you.
                 </p>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>

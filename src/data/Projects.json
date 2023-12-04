@@ -6,7 +6,7 @@
         "Code": "MANG/PHP/WORDPRESS",
         "Img": "/img/work/redemption1.png",
         "Type": "Freelance",
-        "Desc": "Redemption is a church where I primarly manage their site, along with some updates and new features.",
+        "Desc": "Redemption is a church where I primarly manage their site, along with providing updates and new features.",
         "Url": "https://redemptioncares.com/"
       },
       {
@@ -14,7 +14,7 @@
         "Code": "NEXT JS/TAILWIND/GRAPHQL QUERY",
         "Img": "/img/work/trim1.png",
         "Type": "Freelance",
-        "Desc": "Trim is a site for getting hair cuts in the simular style of DoorDash, where you order hair cuts to your home.",
+        "Desc": "Trim is a site for getting hair cuts in the similar style of DoorDash, ordering hair cuts to your home. I primarly worked on frontend code, and fetching and adding backend as well.",
         "Url": "https://www.trim.me/"
       }
     ]
